@@ -1,18 +1,153 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+*
 body{
     background-color: black;
 }
-main{
-    background-color: tomato;
-}
-h1{
-    color: green;
-}
-p{
-    color: blueviolet;
-}
+nav{
+    background-color: black;
 
+}
+.Inicio{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 360px;
+    top: 50px;
+    
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+
+}
+a.Filmes{
+    position: absolute;
+    width: 165px;
+    height: 40px;
+    left: 617px;
+    top: 78px;
+    
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+
+}
+.Series{
+    position: absolute;
+    width: 162px;
+    height: 40px;
+    left: 910px;
+    top: 78px;
+    
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+}
+.img{
+    position: absolute;
+    top: 130px;
+    width: 1050px;
+    left: 150px;
+
+}
+.bg1{
+    background-color: white;
+    position: absolute;
+    top: 538px;
+    width: 1050px;
+    left: 150px;
+    height: 940px;
+}
+.encanto{
+    position: absolute;
+    top: 570px;
+    left: 170px;
+    height: 400px;
+}
+.raya{
+    position: absolute;
+    top: 568px;
+    left: 527px;
+    height: 400px;
+}
+.buzz{
+    position: absolute;
+    top: 570px;
+    left: 879px;
+    height: 400px;
+}
+.toy1{
+    position: absolute;
+    top: 1020px;
+    left: 170px;
+    height: 400px;
+}
+.irmao-urso{
+    position: absolute;
+    top: 1026px;
+    left: 527px;
+    height: 400px;
+}
+.luca{
+    position: absolute;
+    top: 1026px;
+    left: 879px;
+    height: 400px;
+}
+.bg2{
+    background-color: black;
+    position: absolute;
+    top: 1478px;
+    width: 1050px;
+    left: 150px;
+    height: 50px
+}
+.direitos{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    position: absolute;
+    top: 1478px;
+    width: 1050px;
+    left: 260px;
+    height: 50px
+}
+.youtube{
+    position: absolute;
+    top: 1478px;
+    width: 50px;
+    left: 1028px;
+    height: 50px
+}
+.instagram{
+    position: absolute;
+    top: 1485px;
+    width: 50px;
+    left: 1085px;
+    height: 50px
+}
+.disney-plus{
+    position: absolute;
+    top: 1478px;
+    width: 50px;
+    left: 1140px;
+    height: 50px
+}
